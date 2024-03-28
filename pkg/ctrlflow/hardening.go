@@ -9,8 +9,8 @@ import (
 
 	"golang.org/x/exp/rand"
 	"golang.org/x/tools/go/ssa"
-	ah "mvdan.cc/garble/internal/asthelper"
-	"mvdan.cc/garble/internal/literals"
+	ah "mvdan.cc/garble/pkg/asthelper"
+	"mvdan.cc/garble/pkg/literals"
 )
 
 var hardeningMap = map[string]dispatcherHardening{

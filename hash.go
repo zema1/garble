@@ -15,7 +15,7 @@ import (
 	"os/exec"
 	"strings"
 
-	"mvdan.cc/garble/internal/literals"
+	"mvdan.cc/garble/pkg/literals"
 )
 
 const buildIDSeparator = "/"

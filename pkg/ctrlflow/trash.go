@@ -15,8 +15,8 @@ import (
 
 	"golang.org/x/exp/maps"
 	"golang.org/x/tools/go/ssa"
-	ah "mvdan.cc/garble/internal/asthelper"
-	"mvdan.cc/garble/internal/ssa2ast"
+	ah "mvdan.cc/garble/pkg/asthelper"
+	"mvdan.cc/garble/pkg/ssa2ast"
 )
 
 const (

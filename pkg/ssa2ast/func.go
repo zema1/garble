@@ -12,7 +12,7 @@ import (
 
 	"golang.org/x/exp/slices"
 	"golang.org/x/tools/go/ssa"
-	ah "mvdan.cc/garble/internal/asthelper"
+	ah "mvdan.cc/garble/pkg/asthelper"
 )
 
 var (

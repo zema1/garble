@@ -595,7 +595,7 @@ _s2a_l4:
 
 ### Caveats
 
-* Obfuscation breaks the lazy iteration over maps. See: [ssa2ast/polyfill.go](../internal/ssa2ast/polyfill.go)
+* Obfuscation breaks the lazy iteration over maps. See: [ssa2ast/polyfill.go](../pkg/ssa2ast/polyfill.go)
 
 ### Complexity benchmark
 

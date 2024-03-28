@@ -44,10 +44,10 @@ import (
 	"golang.org/x/mod/module"
 	"golang.org/x/tools/go/ast/astutil"
 	"golang.org/x/tools/go/ssa"
-	"mvdan.cc/garble/internal/ctrlflow"
+	"mvdan.cc/garble/pkg/ctrlflow"
 
-	"mvdan.cc/garble/internal/linker"
-	"mvdan.cc/garble/internal/literals"
+	"mvdan.cc/garble/pkg/linker"
+	"mvdan.cc/garble/pkg/literals"
 )
 
 var flagSet = flag.NewFlagSet("garble", flag.ContinueOnError)

@@ -8,7 +8,7 @@ import (
 	"strconv"
 
 	"golang.org/x/tools/go/ssa"
-	"mvdan.cc/garble/internal/ssa2ast"
+	"mvdan.cc/garble/pkg/ssa2ast"
 )
 
 type blockMapping struct {
